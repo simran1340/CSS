@@ -1,0 +1,237 @@
+<html>
+
+<head>
+    <title>
+        Resume
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @media screen and(min-width:674px) {
+            .left-section {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        .main-content {
+            margin-top: 30px;
+            min-height: 1000px;
+            width: 90%;
+            grid-template-columns: 300px 700px;
+            display: grid;
+        }
+
+        .left-section {
+            grid-column: span 1;
+            background-color: grey;
+        }
+
+        .right-section {
+            grid-column: span 1 / span 2;
+            background-color: lightgrey;
+        }
+
+        .left-content {
+            padding: 1rem;
+        }
+
+        .profile-image {
+            padding: 1rem;
+            display: block;
+            margin: auto;
+            border: 5px solid white;
+            border-radius: 30%;
+            width: 60%;
+        }
+
+        .name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.02px;
+            padding: 0.8rem;
+        }
+
+        .designation {
+            font-size: 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 0.5rem;
+        }
+
+        .description {
+            font-size: 0.75 rem;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        #icon {
+            display: inline;
+            margin: 1.5rem;
+            padding: auto;
+        }
+
+        .skills {
+            font-size: 0.75rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 1rem 0.5rem;
+        }
+
+        .skill-name {
+            font-size: 0.65rem;
+            font-weight: 0.65rem;
+            text-align: left;
+            padding-bottom: 0.5rem;
+        }
+
+        .progress-bar {
+            border: 1px solid white;
+            height: 4px;
+            background-color: white;
+        }
+
+        .right-main-content {
+            padding: 2rem 3rem;
+        }
+
+        .right-title {
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 00.5rem;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile-details">
+                    <div class="profile">
+                        <img class="profile-image"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNr6kQ1QSH1_aOwsdUGvvPtwzLJTE9uekezseGJ26nyU8TlcBCvdVPV3vIbNFbcfgKXEE&usqp=CAU"
+                            alt="profile">
+                        <div class="name">Sushmita Sen</div>
+                        <div class="designation">Actress</div>
+                        <div class="description">Miss Universe in 1994</div>
+                        <div class="contact-item"></div>
+                        <div class=social-media">
+                            <li type="none" id="icon"><a href="https://www.linkedin.com/signup"
+                                    class="fa fa-linkedin"></a></li>
+                            <li type="none" id=icon><a href="https://github.com/" class="fa fa-github"></a></li>
+                            <li type="none" id="icon"><a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                            </li>
+                            <li type="none" id="icon"><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
+                        </div>
+                        <br>
+                        <div class="personal-info">
+                            <li type="none" id="icon" class="fa fa-phone">+91-988881234</li>
+                            <li type="none" id="icon" class="fa fa-envelope">actress.sen@gmail.com</li>
+                            <li type="none" id="icon" class="fa fa-map-marker">Sector-62,Gurgaon,Haryana</li>
+                        </div>
+                        <br>
+                        <div class="skills">
+                            <h2 class="skills-title">Skills</h2>
+                            <div class="skills-content">
+                                <div class="skill-name">
+                                    <h3>HTML</h3>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill-name">
+                                    <h3>CSS</h3>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill-name">
+                                    <h3>JAVASCRIPT</h3>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill-name">
+                                    <h3>React</h3>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill-name">
+                                    <h3>Nodejs</h3>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill-name">
+                                    <h3>MangoDB</h3>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="right-section">
+            <div class="right-main-content">
+                <section class="about-section">
+                    <h3 class="right-title">About Me</h3>
+                    <p>
+                        Sushmita Sen (born 19 November 1975) is an Indian actress, model and the winner of the
+                        Miss Universe 1994 pageant. She is the first Indian to win the Miss Universe pageant. She was
+                        previously crowned Femina Miss India 1994 at the age of 18. After winning the Miss Universe
+                        pageant, she has worked as a film actress.
+                        Sen won the Filmfare Award for Best Supporting Actress for her performance in the comedy film
+                        Biwi No.1 (1999), and was also nominated in the category for her roles in the dramas Sirf Tum
+                        (1999) and Filhaal... (2002). Her commercially successful films include Aankhen (2002), Main
+                        Hoon Na (2004), and Maine Pyaar Kyun Kiya? (2005).For her work in the drama series Aarya,
+                        Sen won Best Actress award at Filmfare OTT Awards.
+                    </p>
+                </section>
+                <section class="education-section">
+                    <h3 class="right-title">Education</h3>
+                    <p>
+                        Schooling from: Air Force Golden Jubilee Institute, Delhi Air Force Silver School,
+                        Delhi St. Anns's High School,Secunderabad, Hyderabad (Now in Telangana)
+                        Graduat in English Honors with Journalism
+                    </p>
+                </section>
+                <section class="experience-section">
+                    <h3 class="right-title">Experience</h3>
+                    <p>
+                        In 1994, as a teenager, Sen won the title 'Femina Miss India Universe', earning the right to
+                        compete at the Miss Universe 1994 contest.At the Miss Universe contest, Sen ranked third overall
+                        in the preliminaries, behind Miss Colombia Carolina Gómez and Miss Venezuela Minorka Mercado.
+                        Sen went on to place second, fifth and third in the subsequent rounds and finally won the title
+                        and crown of Miss Universe 1994. She was the first Indian to win the title.
+                        After the Times Group relinquished the rights to choose the Indian representative to Miss
+                        Universe, Sen's project, I Am She – Miss Universe India, took over, running it for three years
+                        (2010 to 2012). This was followed by Femina taking over.in January 2017 appeared as one of the
+                        judges of Miss Universe 2016 at the Mall of Asia Arena, Pasay, Metro Manila, Philippines on 30
+                        January 2017.Joining her as judges were Cynthia Bailey, Mickey Boardman, Francine LaFrak,
+                        Miss Universe 2011 Leila Lopes, and Miss Universe 1993 Dayanara Torres.
+                    </p>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
